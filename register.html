@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register-style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><span>BE</span>FIT</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="index.html#home">home</a></li>
+                <li><a href="index.html#about">about</a></li>
+                <li><a href="index.html#service">service</a></li>
+                <li><a href="index.html#trainer">trainer</a></li>
+                <li><a href="index.html#plan">plan</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="wrapper">
+            <form action="">
+                <h1>Register</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="gender">
+                    <span class="gender-selection">Gender: </span>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </div>
+                <div class="input-box">
+                    <input type="number" min="18" max="99" placeholder="Age">
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
